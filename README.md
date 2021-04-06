@@ -1,3 +1,23 @@
+# Proposta
+### A API deve conter os seguintes serviços:
+- 1º - Serviço para calcular o IMC com os seguintes paramentos: nome,
+cpf, altura e peso. O retorno deve conter o IMC obtido e também a
+classificação. Lembrando que todos resultados devem ser registrados
+em um banco de dados com a data da inserção
+- 2º - Serviço para listar todos os cálculos contendo todas as informações
+registradas.
+- 3º - Serviço para buscar um registro por cpf contendo todas as
+informações registradas.
+
+### O front-end precisa conter os seguintes requisitos:
+- Tela para cadastro do IMC, seguindo as informações como: nome, cpf,
+altura e peso. Depois do cadastro deve exibir uma mensagem do
+resultado do primeiro serviço.
+- Tela que lista todos os dados cadastrados, usando o segundo serviço.
+- Tela que busca o registro por cpf e mostra as informações registradas
+usando o terceiro serviço.
+- Menu de navegação entre as telas.
+
 # Projeto Angular + NodeJS
 
 Este é um projeto Fullstack feito com Angular 9, Bootstrap, NodeJS, Express e PostgreSQL.
